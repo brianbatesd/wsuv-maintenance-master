@@ -65,9 +65,9 @@ header img.logo {
     margin-bottom: 0.8em;
 }
 p {
-    margin: 1.5em 0;
+    margin: 1.5em 0 0 0;
     font-size: 1.125em;
-    line-height: 1.5em;
+    line-height: 1.25em;
 }
 ul {
     padding-top: 1em;
