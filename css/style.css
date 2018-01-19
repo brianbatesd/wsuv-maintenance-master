@@ -93,6 +93,11 @@ a:hover {
 a:active {
     color: #981e32;
 }
+ul li a:hover,
+ul li a:focus {
+    background: #262b2d;
+    color: #fff;
+}
 footer {
     margin-top: 5em;
     width: 100%;
@@ -125,6 +130,12 @@ footer .hand-writing {
 .address a {
     text-decoration: none;
     color: #fff;
+}
+.address a:hover,
+.address a:focus {
+    background: #fff;
+    color: #262b2d;
+    text-decoration: underline;
 }
 .social {
     color: #fff;
