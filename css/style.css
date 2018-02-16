@@ -56,19 +56,32 @@ header img.logo {
     max-width: 768px;
     margin: 0 auto;
 }
+h1 {
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: 1em;
+    color: #981e32;
+}
 h2 {
     font-weight: 700;
     margin-top: 35px;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 700;
     line-height: 1.125em;
-    color: #981e32;
-    margin-bottom: 0.8em;
 }
 p {
     margin: 1.5em 0 0 0;
     font-size: 1.125em;
     line-height: 1.25em;
+}
+p.alert {
+    padding: 1em;
+    border: 1px solid #262b2d;
+}
+strong.alert {
+    color: #981e32;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 ul {
     padding-top: 1em;
@@ -93,6 +106,12 @@ a:hover {
 }
 a:active {
     color: #981e32;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
 }
 ul li a:hover,
 ul li a:focus {
